@@ -1,4 +1,4 @@
-package chala;
+package books;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -50,7 +50,7 @@ public class RegisterServlet extends HttpServlet {  @Override
 	 } catch (Exception e) { 
 		 e.printStackTrace(); 
 		 pw.println("<h1>" + e.getMessage() + "</h1>"); } 
-		 pw.println("<a href='Home.html'>Home</a>"); pw.print("<br>"); 
+		 pw.println("<a href='home.html'>Home</a>"); pw.print("<br>"); 
 		 pw.println("<a href='booklist'>Book List</a>");}
 	  
 	 @Override

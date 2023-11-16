@@ -1,4 +1,4 @@
-package chala;
+package books;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -51,7 +51,7 @@ pw.println("<h1>" + se.getMessage() + "</h1>");
 e.printStackTrace(); 
 pw.println("<h1>" + e.getMessage() + "</h1>"); 
 } 
-pw.println("<a href='Home.html'>Home</a>"); 
+pw.println("<a href='home.html'>Home</a>"); 
 pw.print("<br>"); 
 pw.println("<a href='booklist'>Book List</a>"); 
 } 

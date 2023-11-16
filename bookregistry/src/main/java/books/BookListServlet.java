@@ -1,4 +1,4 @@
-package chala;
+package books;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -33,6 +33,7 @@ public class BookListServlet extends HttpServlet {
 			
 			PreparedStatement ps = conn.prepareStatement(query);
 			ResultSet rs = ps.executeQuery();
+			pw.println("<a href=\"home.html\">Home</a>");
 			pw.println("<table>");
 			pw.println("<p>books are</p>");
 			pw.println("<tr>");
